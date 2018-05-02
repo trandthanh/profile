@@ -1,0 +1,135 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: rgb(250, 250, 250);
+}
+
+body, table {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  color: #D1A2D6;
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.1em;
+}
+
+p {
+  font-size: 0.8em;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(120, 120, 120);
+}
+
+a:hover {
+  color: #DD5555;
+}
+
+/*.fa {
+  font-size: 50px;
+  color: rgb(150,150,150);
+}
+*/
+.fa-linkedin {
+  font-size: 30px;
+}
+
+.fa-github {
+  font-size: 30px;
+}
+
+.img-circle-medium {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+#books-list img {
+  width: 100px;
+  box-shadow: 0 0 3px rgba(30, 30, 30, 0.2)
+  margin-bottom: 20px;
+}
+
+.emoticon {
+  font-size: 7em;
+  padding: 20px;
+  width: 700px;
+  border-radius: 4px;
+}
+
+.emoticon p {
+  font-size: 20px;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background-color: #F1F1F1;
+  padding: 50px;
+  width: 700px;
+  margin: 30px auto;
+  border-radius: 4px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.shadow-light {
+  box-shadow: 0 0 3px rgba(30, 30, 30, 0.2)
+}
+
+.pro a {
+  margin: 0px 10px 0px 10px;
+}
+
+table img {
+  margin-bottom: 15px;
+}
+
+table h3 {
+  margin-left: 45px;
+}
+
+table p {
+  margin-left: 45px;
+}
+
+#books-list {
+  margin-top: 60px;
+}
